@@ -1,12 +1,28 @@
 # Setting
 
-My computer settings.
+My computer, server settings.
+
+## Server
+
+See SERVER.md
 
 ## PuTTY
 
-Based on [jblaine/solarized-and-modern-putty](https://github.com/jblaine/solarized-and-modern-putty). Color schemes are replaced to [benjojo/base-16-putty](https://github.com/benjojo/base-16-putty)'s Solarized Dark for.
+Based on [jblaine/solarized-and-modern-putty](https://github.com/jblaine/solarized-and-modern-putty). Color schemes are replaced to [benjojo/base-16-putty](https://github.com/benjojo/base-16-putty)'s Solarized Dark.
 
-Merge `putty/putty-base16-solarized.reg` to registry, and add own hosts from Default Settings.
+1. Merge `putty/putty-base16-solarized.reg` to registry
+2. Add own hosts from Default Settings
+
+## Sublime Text
+
+1. Install Package Control
+2. Install from Package Control
+  * ConvertToUTF8
+  * EditorConfig
+  * Emmet
+  * Solarized Color Scheme
+  * Theme - Afterglow
+3. Apply `sublime/Preferences.sublime-settings` to User Settings
 
 ## LICENSE
 
