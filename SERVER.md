@@ -8,6 +8,10 @@ locale-gen ko_KR.UTF-8
 
 ```
 nano /etc/hostname
+# open /etc/hosts
+# add below lines
+#   127.0.0.1       <FQDN>  <HOSTNAME>
+#   <IP_OF_SERVER>  <FQDN>  <HOSTNAME>
 hostname -F /etc/hostname
 ```
 
