@@ -1,20 +1,16 @@
 # Setting
-
-My computer, server settings.
+My desktop, server settings  
+**So much outdated, should rewrite**
 
 ## Server
-
 See SERVER.md
 
-## PuTTY
+## All Desktop
 
-Based on [jblaine/solarized-and-modern-putty](https://github.com/jblaine/solarized-and-modern-putty). Color schemes are replaced to [benjojo/base-16-putty](https://github.com/benjojo/base-16-putty)'s Solarized Dark.
+### Font
+Install [D2Coding](http://dev.naver.com/projects/d2coding)
 
-1. Merge `putty/putty-base16-solarized.reg` to registry
-2. Add own hosts from Default Settings
-
-## Sublime Text
-
+### Sublime Text 3
 1. Install Package Control
 2. Install from Package Control
   * ConvertToUTF8
@@ -22,7 +18,12 @@ Based on [jblaine/solarized-and-modern-putty](https://github.com/jblaine/solariz
   * Emmet
   * Solarized Color Scheme
   * Theme - Afterglow
-3. Apply `sublime/Preferences.sublime-settings` to User Settings
+3. Apply `sublime/Preferences.sublime-settings` to User Settings (`font_size` may be changed)
+
+## Windows Desktop
+
+### Shell
+1. Install [Babun](http://babun.github.io/).
 
 ## LICENSE
 
