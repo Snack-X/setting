@@ -1,6 +1,11 @@
-# Install neovim
+# Neovim
 
 Follow [instructions](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+```
+$ mkdir -p ~/.config/nvim
+$ wget https://raw.githubusercontent.com/Snack-X/setting/master/nvim/init.vim -P ~/.config/nvim
+```
 
 # Locale
 
@@ -25,7 +30,7 @@ $ apt-get install zsh git
 $ chsh -s $(which zsh)
 
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# copy `/oh-my-zsh/bureau-snack.zsh-theme` to `/.oh-my-zsh/themes`
+$ wget https://raw.githubusercontent.com/Snack-X/setting/master/oh-my-zsh/bureau-snack.zsh-theme -P ~/.oh-my-zsh/themes
 
 $ vi ~/.zshrc
 # change ZSH_THEME to "bureau-snack"
@@ -41,7 +46,7 @@ $ ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 # tmux
 
 ```
-# copy `/.tmux.conf` to `~/`
+$ wget https://raw.githubusercontent.com/Snack-X/setting/master/tmux/.tmux.conf -P ~
 $ tmux source-file ~/.tmux.conf
 # Use C-a as prefix
 #   C-a r    reload config
