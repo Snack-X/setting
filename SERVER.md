@@ -68,11 +68,6 @@ $ vi ~/.zshrc
 Follow [instruction](https://github.com/creationix/nvm#install-script) to install nvm
 
 ```
-$ vi ~/.zshrc
-# add below
-#   export NVM_DIR="/root/.nvm"
-#   [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-$ . ~/.zshrc
-$ nvm install latest
-$ nvm alias default 0.12
+$ nvm install stable
+$ nvm alias default stable
 ```
