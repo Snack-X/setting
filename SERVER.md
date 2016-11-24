@@ -71,3 +71,5 @@ Follow [instruction](https://github.com/creationix/nvm#install-script) to instal
 $ nvm install stable
 $ nvm alias default stable
 ```
+
+Follow [instruction](https://yarnpkg.com/en/docs/install#alternatives-tab) to install yarn
