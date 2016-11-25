@@ -1,33 +1,40 @@
 # Setting
 My desktop, server settings
-**So much outdated, should rewrite**
 
 ## Server
+
 See [SERVER.md]
 
 ## All Desktop
 
 ### Font
-Install [D2Coding](http://dev.naver.com/projects/d2coding)
+
+Install [D2Coding](https://github.com/naver/d2codingfont/releases)
 
 ### Sublime Text 3
-1. Install Package Control
+
+1. Install [Package Control](https://packagecontrol.io/)
 2. Install from Package Control
+  * Boxy Theme
   * ConvertToUTF8
+  * DocBlockr
   * EditorConfig
   * Emmet
-  * Solarized Color Scheme
-  * Theme - Afterglow
+  * JSON Reindent
+  * SideBarEnhancements
 3. Apply `sublime/Preferences.sublime-settings` to User Settings (`font_size` may be changed)
 
 ## Windows Desktop
 
 ### Shell
-1. Install [Babun](http://babun.github.io/).
+
+1. Use Windows 10 & Windows Subsystem for Linux
+2. Install [wsl-terminal](https://github.com/goreliu/wsl-terminal)
 
 ## Linux / Mac Desktop
 
 ### Neovim
+
 Follow Neovim section at [SERVER.md]
 
 ## LICENSE

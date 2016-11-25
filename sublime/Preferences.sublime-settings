@@ -1,7 +1,9 @@
 {
 	"bold_folder_labels": true,
+  "caret_extra_width": 1,
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).tmTheme",
 	"colored_folder_glyphs": true,
+  "fade_fold_buttons": false,
 	"font_face": "D2Coding",
 	"font_size": 14.0,
 	"highlight_modified_tabs": true,
@@ -9,15 +11,29 @@
 	[
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"open_files_in_new_window": false,
+  "overlay_scroll_bars": "enabled",
 	"rulers":
 	[
-		80,
+		80
 	],
+	"show_encoding": true,
+	"show_line_endings": true,
 	"sidebar_folders": true,
 	"tab_size": 2,
 	"tabs_small": true,
-	"theme": "Afterglow.sublime-theme",
+	"theme": "Boxy Ocean.sublime-theme",
+	"theme_scrollbar_colored": true,
+	"theme_scrollbar_line": true,
+	"theme_sidebar_font_xs": true,
+	"theme_sidebar_heading_bold": true,
+	"theme_sidebar_indent_top_level_disabled": true,
+	"theme_sidebar_size_xs": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
