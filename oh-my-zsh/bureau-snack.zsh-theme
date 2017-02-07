@@ -1,9 +1,9 @@
 # oh-my-zsh Bureau Theme
 
-### NVM
+### Node.js
 
-ZSH_THEME_NVM_PROMPT_PREFIX="%BN%b "
-ZSH_THEME_NVM_PROMPT_SUFFIX=""
+ZSH_THEME_NODE_VERSION_PREFIX="%BN%b "
+ZSH_THEME_NODE_VERSION_SUFFIX=""
 
 ### Git
 
@@ -107,7 +107,7 @@ bureau_precmd () {
 
 setopt prompt_subst
 PROMPT='> $_LIBERTY '
-RPROMPT='$(nvm_prompt_info) $(bureau_git_prompt)'
+RPROMPT='$(node_version_info) $(bureau_git_prompt)'
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd bureau_precmd
