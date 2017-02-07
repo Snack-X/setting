@@ -86,11 +86,15 @@ $ git clone https://github.com/jasongin/nvs "$NVS_HOME"
 $ . "$NVS_HOME/nvs.sh" install
 
 $ nvs add latest
+$ nvs use latest
 $ nvs link latest
 ```
 
-# Yarn
+# Yarn & pm2
 
 ```
 $ curl -o- -L https://yarnpkg.com/install.sh | bash
+$ . ~/.zshrc
+
+$ yarn global add pm2
 ```
