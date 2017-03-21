@@ -74,10 +74,10 @@ if [[ $EUID -eq 0 ]]; then
   _USERNAME="%{$fg_bold[red]%}%n"
   _LIBERTY="%{$fg[red]%}#"
 else
-  _USERNAME="%{$fg_bold[white]%}%n"
+  _USERNAME="%{$fg_bold[white]%}snack"
   _LIBERTY="%{$fg[green]%}$"
 fi
-_USERNAME="$_USERNAME%{$reset_color%}@%m"
+_USERNAME="$_USERNAME%{$reset_color%}@Mac"
 _LIBERTY="$_LIBERTY%{$reset_color%}"
 
 
@@ -97,17 +97,17 @@ get_space () {
 }
 
 _1LEFT="$_USERNAME $_PATH"
-_1RIGHT="[%*] "
 
 bureau_precmd () {
+  _1RIGHT="$(node_version_info) $(bureau_git_prompt)"
   _1SPACES=`get_space $_1LEFT $_1RIGHT`
   print
   print -rP "$_1LEFT$_1SPACES$_1RIGHT"
 }
 
 setopt prompt_subst
-PROMPT='> $_LIBERTY '
-RPROMPT='$(node_version_info) $(bureau_git_prompt)'
+PROMPT='$_LIBERTY '
+RPROMPT=''
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd bureau_precmd
