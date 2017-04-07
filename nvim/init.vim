@@ -10,5 +10,4 @@ set showcmd
 set background=dark
 
 " don't mess with my cursor
-let $NVIM_TUI_ENABLE_CURSOR_SHAPE=0
- 
+set guicursor=a:ver100
