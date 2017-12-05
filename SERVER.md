@@ -42,11 +42,11 @@ $ apt-get install zsh git
 $ chsh -s $(which zsh)
 
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-$ wget https://raw.githubusercontent.com/Snack-X/setting/master/oh-my-zsh/bureau-snack.zsh-theme -P ~/.oh-my-zsh/themes
+$ wget https://raw.githubusercontent.com/Snack-X/setting/master/oh-my-zsh/snack.zsh-theme -P ~/.oh-my-zsh/themes
 $ wget https://raw.githubusercontent.com/Snack-X/setting/master/oh-my-zsh/node_version.zsh -P ~/.oh-my-zsh/lib
 
 $ vi ~/.zshrc
-# change `ZSH_THEME` to `"bureau-snack"`
+# change `ZSH_THEME` to `"snack"`
 $ . ~/.zshrc
 ```
 
