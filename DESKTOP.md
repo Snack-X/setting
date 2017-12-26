@@ -47,6 +47,8 @@ $ tmux source-file ~/.tmux.conf
 # C-a |          Vertical split pane
 # S-<Arrow>      Move between panes
 # C-a M-<Arrow>  Resize pane
+# C-M-Up         Change scope to child tmux
+# C-M-Down       Change scope to parent tmux
 
 $ vi ~/.zshrc
 # add below
