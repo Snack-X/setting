@@ -1,14 +1,14 @@
 # Setting
 
-My desktop, server settings
-
-## Server
-
-See [SERVER.md](SERVER.md)
+Settings for various things
 
 ## Desktop
 
 See [DESKTOP.md](DESKTOP.md)
+
+## Server
+
+See [SERVER.md](SERVER.md)
 
 ## LICENSE
 

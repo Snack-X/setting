@@ -23,6 +23,7 @@ $ wget https://raw.githubusercontent.com/Snack-X/setting/master/nvim/init.vim -P
 
 ```
 $ locale-gen ko_KR.UTF-8
+$ vi /etc/default/locale
 ```
 
 # Hostname
@@ -47,6 +48,7 @@ $ wget https://raw.githubusercontent.com/Snack-X/setting/master/oh-my-zsh/node_v
 
 $ vi ~/.zshrc
 # change `ZSH_THEME` to `"snack"`
+# add `DEFAULT_UESR`
 $ . ~/.zshrc
 ```
 
@@ -61,12 +63,17 @@ $ ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 ```
 $ wget https://raw.githubusercontent.com/Snack-X/setting/master/tmux/.tmux.conf -P ~
 $ tmux source-file ~/.tmux.conf
-# Use C-a as prefix
-#   C-a r    reload config
-#   M-Left   Previous window
-#   M-Right  Next window
-#   M-Up     Previous session
-#   M-Down   Next session
+# C-a            General prefix
+# C-a r          Reload config
+# C-a [          Buffer
+# M-<Left>       Previous window
+# M-<Right>      Next window
+# M-<Up>         Previous session
+# M-<Down>       Next session
+# C-a -          Horizontal split pane
+# C-a |          Vertical split pane
+# S-<Arrow>      Move between panes
+# C-a M-<Arrow>  Resize pane
 
 $ vi ~/.zshrc
 # add below
@@ -74,27 +81,4 @@ $ vi ~/.zshrc
 #     #if not inside a tmux session, and if no session is started, start a new session
 #     test -z "$TMUX" && (tmux attach || tmux new-session)
 #   fi
-```
-
-# Node.js, NVS
-
-*Installation may change, See https://github.com/jasongin/nvs*
-
-```
-$ export NVS_HOME="$HOME/.nvs"
-$ git clone https://github.com/jasongin/nvs "$NVS_HOME"
-$ . "$NVS_HOME/nvs.sh" install
-
-$ nvs add latest
-$ nvs use latest
-$ nvs link latest
-```
-
-# Yarn & pm2
-
-```
-$ curl -o- -L https://yarnpkg.com/install.sh | bash
-$ . ~/.zshrc
-
-$ yarn global add pm2
 ```
